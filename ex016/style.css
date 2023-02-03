@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: linear-gradient(
+        10deg, #A700CC, #C900A1, #E30076, #EA015A, #E92A31, #F06F0A, #F6AC0B 103%, #F8BA0D);
+    background-attachment: fixed;
+    font-family: cursive;
+}
+
+h1{
+    color: #e4d0d8;
+    background-color: #302d2d;
+    text-align: center;
+
+}
+p{
+    color: #e7dfd5;
+    background-color: #302d2d;
+    text-align: center;
+}

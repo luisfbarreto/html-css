@@ -1,0 +1,75 @@
+dev.luisf17th@gmail.com
+Felipeluis12@.dev
+
+1- Logica, algoritimos e estrutura de dados.
+2- Frontend: html, css e JavaScript.
+
+
+-----------------------------------------------------------------------------------------------------
+
+@charset "UTF-8";: Comando basico que torna o css compativel para acentos e caracteres especiais.
+
+Use o "adobe color" para referencia de paleta de cores e "Google fonts" para fontes.
+
+/* */: comentario em css
+
+shorthand font: as definições para fontes são:
+
+font-family: Arial, sans-serif;
+font-weight: bolder;
+font-size: 1em;
+font-style: italic;
+
+porém o shorhand é uma forma de simplificar isso, ele usa o seguinte padrão:
+
+font: font-style -> font-weight -> font-size -> font-family
+obs: o importante é seguir essa ordem, por exemplo, caso vc não queira usar um font-style basta só não escrever o estilo e pular para o font-weight.
+ex: font: bolder 1em Arial, sans-serif;
+@font-face: para adicionar fontes externas
+
+então na prática ficaria assim: 
+
+font: italic bolder 1em Arial, sans-serif;
+
+formatos de fontes externas:
+opentype(otf)
+truetupe(tff)
+embedded-opentype
+truetype-att (Apple Advanced Typography)
+svg
+
+#  = id
+.  = class
+:  = pseudo-class
+:: = pseduo-element
+>  = children
+
+:root{} - É uma pseudo-classe que serve para criar variaveis em css.
+
+use "--" para as variaveis, após o -- coloque o nome da variavel
+ex: --cor1: black;
+
+text-indent: aquele recuo no começo do texto.
+
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2; 
+Listas em css: https://www.youtube.com/watch?v=pdomr7thueI&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=41
+
+Estrutura de site:
+
+Header, main e footer (Cabeçalho, principal e rodapé)
+
+<nav>: navegação, menuzinho interativo
+
+<article>:é o artigo, o seu conteudo do main
+
+
+min-width:
+max-width:
+margin: auto:
+
+esses comandos servem para centralizar sua pagina.
+
+
+

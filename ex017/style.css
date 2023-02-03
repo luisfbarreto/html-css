@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body{
+    /* font-style -> font-weight -> font-size -> font-family */
+    font: italic bolder 1em Arial, Helvetica, sans-serif;
+
+}

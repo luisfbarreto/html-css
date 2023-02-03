@@ -1,0 +1,96 @@
+dev.luisf17th@gmail.com
+Felipeluis12@.dev
+
+1- HTML E CSS
+2- Linguagem: JavaScript
+
+
+HTML : HYPERTEXT MARKUP LANGUAGE
+
+-----------------------------------------------------------------------------------------------------
+
+Tags: são
+
+<!DOCTYPE html>: indica que o arquivo é de html5.
+<html lang="en ou pt-br">: indica o idioma do site.
+<head>: É a parte de configurações do site
+  < meta charset= "UTF-8">: indica que o site tera caracteres especiais tipo acentos e "Ç"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">: o site vai usar 100% da tela.
+  <title>Meu site</title>: Esse é o titulo do site que aparece na aba.
+</head>: isso encerra o head ( perceba que antes do head tem uma "/" isso indica que é fechamento, mas nem todas as tags tem fechamento
+------------------------------------------------------------------------------------------------
+<body>: é o conteudo que vai aparecer no site
+
+h1 = <h1></h1>: é o heading ( cabeçalho / titulo ), h2,h3,h4.. são hierarquias de titulos e subtitulos.
+p = <p></p>: é o paragraph ( paragrafo do site)
+
+hr: Horizontal row, cria uma linha horizontal, é uma tag que não tem fechamento.
+br: Break row, quebra a linha.
+Para usar o "<" e ">" use &lt; para < e &gt; para >.// &lt; less than | &gt; greater than
+pra usar emoji: &#x em seguida o codigo do emoji, pegue emojis no emojipedia
+para simbolos use w3schools misc symbols
+
+--------------------------------------------------------------------------------------------------------
+
+para adicionar imagens basta digitar "img" e apertar enter que ele gera o comando.
+para colocar icones converta o png para .ico e use o comando link favicon
+
+tags
+Strong: negrito - em sematica
+
+em: enfase/itálico - em semantica
+
+mark: marcar/Marca texo - não semantica
+
+big: texto grande - não semantica
+
+small: texto pequeno - em semantica
+
+del: deleta o texo - em semantica ( aquela linha q risca a palavra)
+
+ins: marca o texo inserido - em semantica ( aquela linha embaixo tipo ____)
+
+U: marca o texto inserido - não semantica
+
+sup: deixa o texo ou numero pequeno superior - em semantica ( ex 2²)
+
+sub: deixa o texo ou numero inserido pequeno inferior - em semantica
+
+code: deixa as letras do mesmo tamanho, simetricas basicamente/monoespaçada.
+codigo fonte
+
+pre: pre formatação usa antes da tag "code" e deixa o texo examente do jeito que vc escreveu, tipo a
+               s
+               s   
+               i
+               m
+Dica: Shit e tab ou só tab definem a posição do texto selecionado
+
+q: São aspas "" porem para citação/citações, use para isso caso o contrario use ""
+
+blockquote: cria um bloco de citação. <blockquote cite="Link da citação aqui" nessas aspas coloque o link de onde você tirou a citação, visualmente não muda mas ajuda nas buscas do google.
+
+abbr: signicado de pavaras / abreviações. VC PASSA O MOUSE NA PALAVRA E ELE MOSTRA O SIGNIFICADO/ O QUE VC ESCREVEU BASICAMENTE
+
+ol: order list, cria lista ordenadas, dentro do ol use "li" cada li é um numero da lista, /li no final é opicional no html5//
+
+OBS: No ol vc pode colocar <ol type para tipo de lista e start pra dizer onde a lista começa.
+
+ul: unordered list, cria lista não ordenada, usa li tbm
+
+OBS: no ul vc pode colocar <ul type="", disc(um circulo), circle(Um bolinha oca), square(um quadrado)
+ 
+dl: definition list, cria uma lista de definição onde tem um termo e sua descrição, ao inves de li se usa "dt" para termo e "dd" para descrição
+
+<a href="" </a>: coloca links em palavras. use target="_blank" rel="external" para abrir uma nova guia com o link. rel="external" não tem forma e sim significado.
+
+<a href="</a> tbm serve para navegações internas com pagina 2,3,4,etc. 
+para esse casa se usa o rel="next" e rel="prev"
+
+Para voltar para uma pagina que esta fora de uma pasta use <a href="../link(ex:pag002.html ou index.html".
+
+<a href="" </a> tbm serve para fazer downloads, basta colocar a localização do aquivo em href="AQUI ex:arquivos/livro.pdf" donwload="Nome do arvivo e formato ex: livro.pdf" type="Tipo do arquivo ex: application/pdf" 
+Para saber o tipo dos arquivos acesse "https://www.iana.org/assignments/media-types/media-types.xhtml"
+
+picture: serve para fazer imagem dinâmica, use as tags img e source
+audio: coloca audio no site, <audio src="Link do audio aqui" control(adiciona controle do audio) autoplay(parametro auto explicativo)><audio/>

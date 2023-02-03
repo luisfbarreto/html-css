@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body> 
+    <h1>Img adapting</h1>
+    <h2>Img 2² adapted local</h2>
+    <p>img adapted</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non doloribus assumenda sint dicta sapiente temporibus fugiat totam veritatis corrupti reprehenderit ut possimus tempore dolorem voluptates, obcaecati, sequi vel dolores!</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="img/img300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="img/img700.jpg" type="image/jpg">
+        <img src="img/img1000.jpg" alt="Foto grande">
+    </picture>
+    <p>Audio em HTML5</p>
+    <audio src="aud/musicameme.mp3" controls></audio>
+    <p>Outro tipo</p>
+    <audio>
+        <source src="aud/musicameme.mp3" type="audio/mpeg">
+    </audio>
+    <p>caso o audio não reproduza faça o donwload clicando <a href="aud/musicameme.mp3" target="_blank" type="external">aqui</a></p>
+    
+</body>
+</html>

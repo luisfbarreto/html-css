@@ -1,0 +1,16 @@
+-HTTP é um protocolo (Hypertext Transfer Protoco) que permite a obtenção de recursos, como documentos HTML. É a base de qualquer troca de dados na Web e um protocolo cliente-servidor, o que significa que as requisições são iniciadas pelo destinatário, geralmente um navegador da Web. HTTPS signfica que o link tem mais camadas de criptografia de dados ou seja segurança, S=Security, 
+
+-URL: Link completo
+
+-Domínio: nome do site, ex: facebook.com, instagram.com, github.com,etc.
+obs: TLD faz parte do domínio.
+
+-TLD: Top Level Domain, ex: .com, .org, .int, .edu, .gov e .mil
+
+-GTLD: Generic TLD, são os TLDs mais comuns tipo o .com, .org, .gov, etc.
+
+-ccTLD: Country Code TLD, indica o codigo do país, ex: .br, .us, .uk.
+
+-Sub-domínio: Vem antes do dominio tipo www., blog., loja., meugit., não tem padrão pode ser qualquer nome ex: "gustavoguanabara.github.io"
+
+-Caminho: um direcionamento do link e fica após a "/" ex: github.com/Lufews

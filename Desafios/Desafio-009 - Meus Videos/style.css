@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: #201f1f;
+    font-family: cursive;
+    text-align: center;
+}
+
+h1{
+    color: #cec8c8;
+
+}
+
+p{
+    color: #cec8c8;
+}
