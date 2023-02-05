@@ -13,7 +13,7 @@ Use o "adobe color" para referencia de paleta de cores e "Google fonts" para fon
 
 /* */: comentario em css
 
-shorthand font: as definições para fontes são:
+shorthand para font é: as definições para fontes são:
 
 font-family: Arial, sans-serif;
 font-weight: bolder;
@@ -23,6 +23,7 @@ font-style: italic;
 porém o shorhand é uma forma de simplificar isso, ele usa o seguinte padrão:
 
 font: font-style -> font-weight -> font-size -> font-family
+
 obs: o importante é seguir essa ordem, por exemplo, caso vc não queira usar um font-style basta só não escrever o estilo e pular para o font-weight.
 ex: font: bolder 1em Arial, sans-serif;
 @font-face: para adicionar fontes externas
@@ -30,6 +31,10 @@ ex: font: bolder 1em Arial, sans-serif;
 então na prática ficaria assim: 
 
 font: italic bolder 1em Arial, sans-serif;
+
+SHORTHAND DE BACKGRUOUND:
+
+color > image > position > repeat > {size} > attachment
 
 formatos de fontes externas:
 opentype(otf)
