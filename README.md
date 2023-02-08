@@ -1,2 +1,2 @@
 # html-css
- Estudos de HTNL e CSS do Curso em Vídeo
+ Estudos de HTML5 e CSS3 do Curso em Vídeo
